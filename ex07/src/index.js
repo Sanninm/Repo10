@@ -1,4 +1,4 @@
-function myFunction(roar) {
+function myFunction(propName) {
 // Only change code below this line
 var lion = {
     "name": "Simba",
@@ -6,7 +6,7 @@ var lion = {
     "tails": 1,
     "roar": "roar-roar"
 }
- delete lion[roar];
+ delete lion[propName];
  return lion;
 // Only change code above this line
 }
