@@ -8,8 +8,8 @@ function getUsername(email) {
     "user5@mail.com": "user5",
     "user6@mail.com": "user6"  
 }; 
-    var value = username[email]
-    return value;
+    var username = username[email]
+    return username;
 }
 // Only change code above this line
 getUsername("user1@mail.com")
